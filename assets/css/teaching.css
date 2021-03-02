@@ -1,0 +1,78 @@
+/* -------- Styles for Teaching page -------- */
+#class-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* -------- Font awesome icons -------- */
+i {
+	transition: transform 600ms;
+}
+i:hover {
+	transform: scale(1.5);
+}
+
+/* -------- Tables for organizing course materials -------- */
+table, th, td {
+	background-color: var(--color-white);
+}
+
+tr:first-child {
+	border-bottom: 3px solid var(--color-black);
+}
+
+tr:not(:first-child):not(:last-child) {
+	border-top: 1px solid var(--color-black);
+	border-bottom: 1px solid var(--color-black);
+}
+
+table {
+	box-shadow: var(--shadow-heavy);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+th, td {
+	padding: 0.6rem;
+}
+
+td {
+	text-align: center;
+}
+
+th {
+	font-weight: var(--primary-font-thick);
+}
+
+.table-container {
+	overflow-x: scroll !important;
+}
+
+/* -------- List styles -------- */
+li {
+	list-style: disc;
+	margin-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* -------- Font styles -------- */
+h2, h3, h4, h5, h6 {
+	color: var(--color-black) !important;
+}
+
+/* ------- Images -------- */
+.textbook-image {
+	max-width: 224px;
+	max-height: calc(1.25*224px);
+}
+
+#uvm-logo {
+	max-width: 400px;
+	max-height: calc(0.2*400px);
+}
+
+img {
+	margin-bottom: 20px;
+}
