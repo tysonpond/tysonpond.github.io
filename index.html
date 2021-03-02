@@ -53,7 +53,7 @@
             <b>I use data and code to build large-scale business solutions.</b>
            </p>
            <p>
-               Posted 2021-03-01: I am now actively seeking a role in data analytics / engineering / science or software engineering, which aligns with my skills.
+               Updated 2021-03-01: I am actively seeking a role in data analytics / engineering / science or software engineering, which aligns with my skills.
            </p>
             <div class="btn-wrap">
                 <a id="my-projects-btn" href="#portfolio" class="btn">My projects</a>
@@ -84,16 +84,32 @@
                     I've built end-to-end data applications for: social media & technology, product management, and financial risk assessment. Check out a few of them below or browse more on <a href="https://github.com/tysonpond" target="_blank">my Github</a>.
                 </p>
                 <div class="project row no-gutters mb-3">
+                    <div class="project-image col-md-3"><img src="assets/images/spotify.jpg" alt=""></div>
+                    <div class="project-body col-md-9 p-3">
+                        <h3 class="project-title" style="display:inline;">My spotify tunes</h3> <span style="color:var(--color-secondary); margin-left:8px;">in progress</span>
+                        <ul class="project-info">
+                            <li>Developed an ELT data pipeline, using Python, to analyze my daily Spotify activity.</li>
+                            <li>(in progress) Used SQL to maintain the data and performed data quality checks.</li> 
+                            <li>(in progress) Scheduled the data pipeline using Airflow.</li>
+                            <li>Created visualizations using D3.js and built the application front-end with HTML/CSS/JavaScript.</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <!-- <a href="#" class="btn">View the app</a> -->
+                            <a href="https://github.com/tysonpond/my-spotify" target="_blank" class="btn">Github </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project row no-gutters mb-3">
                     <div class="project-image col-md-3"><img src="assets/images/ice-cream.png" alt=""></div>
                     <div class="project-body col-md-9 p-3">
                         <h3 class="project-title">Ice cream data dashboard</h3>
                         <ul class="project-info">
-                            <li>In this project we developed a web app. The app was extremely significant.</li>
-                            <li>We used lots of cool tools like HTML, CSS, JavaScript.</li>
-                            <li>The project had a 5% increase to company revenue (equating to 5 billion dollars).</li>
+                            <li>Assessed product performance and identified common complaints &mdash; potentially increasing customer retention &mdash;  by analyzing customer reviews with NLP methods: n-grams, sentiment analysis, and topic modeling.</li>
+                            <li>Collected all customer reviews (20,000) from four company websites using Python and Selenium for web scraping.</li>
+                            <li>Developed interactive visualizations using Highcharts &mdash; allowing for product comparison and trend analysis &mdash; and built a web application using R Shiny.</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn">View the app</a>
+                            <a href="https://github.com/tysonpond/ice-cream-data-dashboard" class="btn">View the app</a>
                             <a href="https://github.com/tysonpond/ice-cream-data-dashboard" target="_blank" class="btn">Github </a>
                         </div>
                     </div>
@@ -101,11 +117,12 @@
                 <div class="project row no-gutters mb-3">
                     <div class="project-image col-md-3"><img src="assets/images/twitch.jpg" alt=""></div>
                     <div class="project-body col-md-9 p-3">
-                        <h3 class="project-title">Twitch.tv recommendation system</h3>
+                        <h3 class="project-title">Twitch tastes</h3>
                         <ul class="project-info">
-                            <li>In this project we developed a web app. The app was extremely significant.</li>
-                            <li>We used lots of cool tools like HTML, CSS, JavaScript.</li>
-                            <li>The project had a 5% increase to company revenue (equating to 5 billion dollars).</li>
+                            <li>Built a collaborative filtering recommendation system to suggest live streamers to Twitch.tv users, potentially increasing daily hours watched.</li>
+                            <li>Collected data on 280,000 user-streamer follows via the Twitch API.</li>
+                            <li>Built a web application and RESTful API using Flask and deployed with Heroku.</li>
+                            <li>Used NetworkX to visualize and identify communities, further informing our recommendations. </li>
                         </ul>
                         <div class="btn-wrap">
                             <a href="http://twitch-tastes.herokuapp.com/" target="_blank" class="btn">View the app</a>
@@ -118,9 +135,9 @@
                     <div class="project-body col-md-9 p-3">
                         <h3 class="project-title">LendingClub loan default prediction</h3>
                         <ul class="project-info">
-                            <li>In this project we developed a web app. The app was extremely significant.</li>
-                            <li>We used lots of cool tools like HTML, CSS, JavaScript.</li>
-                            <li>The project had a 5% increase to company revenue (equating to 5 billion dollars).</li>
+                            <li>Developed a model to predict probability of default for loans on LendingClub. </li>
+                            <li>Used scikit-learn to develop, and optimize the parameters of, our feature selection and modeling pipelines.</li>
+                            <li>Used cost-sensitive metrics for imbalanced data and selected the best model from several classification models: logistic regression, KNN, random forests, XGBoost, and neural networks.</li>
                         </ul>
                         <div class="btn-wrap">
                             <a href="https://github.com/tysonpond/lending-club-risk" target="_blank" class="btn">Github </a>
@@ -130,14 +147,15 @@
                 <div class="project row no-gutters mb-3">
                     <div class="project-image col-md-3"><img src="assets/images/twitter_network.jpg" alt=""></div>
                     <div class="project-body col-md-9 p-3">
-                        <h3 class="project-title">Modeling influence in social networks</h3>
+                        <h3 class="project-title">Information flow in social networks (M.S. thesis)</h3>
                         <ul class="project-info">
-                            <li>In this project we developed a web app. The app was extremely significant.</li>
-                            <li>We used lots of cool tools like HTML, CSS, JavaScript.</li>
-                            <li>The project had a 5% increase to company revenue (equating to 5 billion dollars).</li>
+                            <li>Developed a novel measure and model of written information flow in online social networks.</li>
+                            <li>Estimated that a user's text can be predicted with up to 95% accuracy, using only their social ties' texts.</li>
+                            <li>Utilized a Linux cluster to perform large-scale simulations, generating 100GB of data, and collect 30 million tweets (8GB) to validate our proposed methodology.</li>
+                            <li>Led a team of five international researchers to publish our results.</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="https://www.mdpi.com/1099-4300/22/3/265" target="blank_" class="btn">Journal</a>
+                            <a href="https://www.mdpi.com/1099-4300/22/3/265" target="blank_" class="btn">Journal article</a>
                             <a href="https://arxiv.org/abs/2002.05035" target="blank_" class="btn">arXiv</a>
                             <a href="https://scholarworks.uvm.edu/graddis/1239/" target="blank_" class="btn">Thesis</a>                            
                         </div>
