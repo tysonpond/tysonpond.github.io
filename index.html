@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -40,7 +40,7 @@
 	<!-- NAV-->
 	<nav class="navbar navbar-expand-md fixed-top navbar-light"> 
         <a class="navbar-brand offset-md-1" href="#home">Tyson Pond</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
@@ -56,9 +56,9 @@
         </div>
     </nav> <!-- END NAV -->
 
-   <main id="page-container" class="container-fluid">
-       <div id="page-col" class="offset-md-1 col-md-10 p-0">
-           <section id="home">
+   <main id="page-container" class="container-fluid"> <!-- FOR PAGE LAYOUT -->
+       <div id="page-col" class="offset-md-1 col-md-10 p-0"> <!-- FOR PAGE LAYOUT -->
+           <section id="home"> <!-- HOME SECTION -->
             <h2> Hi, I'm Tyson! </h2>
            <p>
             <b>I use data and code to build business solutions.</b>
@@ -70,14 +70,16 @@
                 <a id="my-projects-btn" href="#portfolio" class="btn">My projects</a>
                 <a href="assets/docs/Tyson_Pond_resume.pdf" target="_blank" class="btn">My resume</a>
             </div>
-            </section>  
-           <section id="about"> <h2>About</h2> 
+            </section> <!-- END HOME -->
+
+           <section id="about"> <!-- ABOUT SECTION -->
+                <h2>About</h2> 
                 <div class="row no-gutters mb-3 row-reverse">
                     <div class="about-image col-md-3"><img src="assets/images/avatar.jpg" alt=""></div>
                     <div class="about-body col-md-9 p-0">
                         <div class="vertical-rule">
                             <p>
-                                I graduated, in May 2020, from the <a href="https://www.uvm.edu/" target="_blank">University of Vermont</a> (UVM) with an M.S. in mathematics. During my time at UVM &mdash; in addition to my student role &mdash; <a href="http://www.uvm.edu/academics/courses/?term=&subject=&number=&text=&&start=&start_meridium=am&end=&end_meridium=am&days%5B%5D=Monday&days%5B%5D=Tuesday&days%5B%5D=Wednesday&days%5B%5D=Thursday&days%5B%5D=Friday&days%5B%5D=Saturday&days%5B%5D=Sunday&dayOperator=or&action=Search&instructor_id=556412" target="_blank">I taught</a> undergraduate math courses to 134 students over four semesters. I also did research under my advisor, <a href="https://bagrow.com/" target="_blank">James Bagrow</a>, in the <a href="https://vermontcomplexsystems.org/" target="_blank">Vermont Complex Systems Center</a>. My <a href="https://scholarworks.uvm.edu/cgi/viewcontent.cgi?article=2240&context=graddis" target="_blank">thesis</a> focused on modeling [textual] information flow in online social networks and utilized large-scale simulation, data collection, and data analysis to validate our model. I collaborated with researchers from the University of Adelaide and led our work to journal publication in <i><a href="https://www.mdpi.com/journal/entropy" target="_blank">Entropy </a></i>. 
+                                I graduated, in May 2020, from the <a href="https://www.uvm.edu/" target="_blank" rel="noopener">University of Vermont</a> (UVM) with an M.S. in mathematics. During my time at UVM &mdash; in addition to my student role &mdash; <a href="http://www.uvm.edu/academics/courses/?term=&subject=&number=&text=&&start=&start_meridium=am&end=&end_meridium=am&days%5B%5D=Monday&days%5B%5D=Tuesday&days%5B%5D=Wednesday&days%5B%5D=Thursday&days%5B%5D=Friday&days%5B%5D=Saturday&days%5B%5D=Sunday&dayOperator=or&action=Search&instructor_id=556412" target="_blank" rel="noopener">I taught</a> undergraduate math courses to 134 students over four semesters. I also did research under my advisor, <a href="https://bagrow.com/" target="_blank" rel="noopener">James Bagrow</a>, in the <a href="https://vermontcomplexsystems.org/" target="_blank" rel="noopener">Vermont Complex Systems Center</a>. My <a href="https://scholarworks.uvm.edu/cgi/viewcontent.cgi?article=2240&context=graddis" target="_blank" rel="noopener">thesis</a> focused on modeling [textual] information flow in online social networks and utilized large-scale simulation, data collection, and data analysis to validate our model. I collaborated with researchers from the University of Adelaide and led our work to journal publication in <i><a href="https://www.mdpi.com/journal/entropy" target="_blank" rel="noopener">Entropy </a></i>. 
                             </p>
                             <p>
                                 After graduating, in the midst of the pandemic, I needed some time to re-energize and reflect before identifying a career path. During this time, I've been expanding my technical skills and developing a portfolio of <b>practical</b> (tackling common business problems), end-to-end projects to complement my academic work. I am now actively seeking a data analyst/engineer/scientist or software engineer role which aligns with my skills.
@@ -88,11 +90,12 @@
                         </div>
                     </div>
                 </div>
-           </section>
-            <section id="portfolio">
+           </section> <!-- END ABOUT -->
+
+            <section id="portfolio"> <!-- PORTFOLIO SECTION -->
                 <h2>Portfolio</h2>
                 <p>
-                    I've built end-to-end data applications for: social media & technology, product management, and financial risk assessment. Check out a few of them below or browse more on <a href="https://github.com/tysonpond" target="_blank">my Github</a>.
+                    I've built end-to-end data applications for: social media & technology, product management, and financial risk assessment. Check out a few of them below or browse more on <a href="https://github.com/tysonpond" target="_blank" rel="noopener">my Github</a>.
                 </p>
                 <div class="project row no-gutters mb-3">
                     <div class="project-image col-md-3"><img src="assets/images/spotify.jpg" alt=""></div>
@@ -103,8 +106,8 @@
                             <li>Created visualizations using D3.js and built the application front-end with HTML/CSS/JavaScript.</li>
                         </ul>
                         <div class="btn-wrap">
-                            <!-- <a href="https://github.com/tysonpond/my-spotify" target="_blank" class="btn">View the app</a> -->
-                            <a href="https://github.com/tysonpond/my-spotify" target="_blank" class="btn">Github </a>
+                            <!-- <a href="https://github.com/tysonpond/my-spotify" target="_blank" rel="noopener" class="btn">View the app</a> -->
+                            <a href="https://github.com/tysonpond/my-spotify" target="_blank" rel="noopener" class="btn">Github </a>
                         </div>
                     </div>
                 </div>
@@ -119,8 +122,8 @@
                             <li>Created interactive visualizations – allowing for product comparison and trend analysis – using Highcharts and R, and built a web application using R Shiny</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="https://tysonpond.shinyapps.io/ice-cream-app-lite/" target="_blank" class="btn">View the app</a>
-                            <a href="https://github.com/tysonpond/ice-cream-data-dashboard" target="_blank" class="btn">Github </a>
+                            <a href="https://tysonpond.shinyapps.io/ice-cream-app-lite/" target="_blank" rel="noopener" class="btn">View the app</a>
+                            <a href="https://github.com/tysonpond/ice-cream-data-dashboard" target="_blank" rel="noopener" class="btn">Github </a>
                         </div>
                     </div>
                 </div>
@@ -135,8 +138,8 @@
                             <li>Used NetworkX to visualize and identify communities, further informing our recommendations</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="http://twitch-tastes.herokuapp.com/" target="_blank" class="btn">View the app</a>
-                            <a href="https://github.com/tysonpond/twitch-recommendations" target="_blank" class="btn">Github </a>
+                            <a href="http://twitch-tastes.herokuapp.com/" target="_blank" rel="noopener" class="btn">View the app</a>
+                            <a href="https://github.com/tysonpond/twitch-recommendations" target="_blank" rel="noopener" class="btn">Github </a>
                         </div>
                     </div>
                 </div>
@@ -150,7 +153,7 @@
                             <li>Used cost-sensitive metrics for imbalanced data and selected the best model from several classification models: logistic regression, KNN, random forests, XGBoost, and neural networks</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="https://github.com/tysonpond/lending-club-risk" target="_blank" class="btn">Github </a>
+                            <a href="https://github.com/tysonpond/lending-club-risk" target="_blank" rel="noopener" class="btn">Github </a>
                         </div>
                     </div>
                 </div>
@@ -165,19 +168,20 @@
                             <li>Led a team of five international researchers to <b>publish</b> our results </li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="https://www.mdpi.com/1099-4300/22/3/265" target="_blank" class="btn">Journal article</a>
-                            <a href="https://arxiv.org/abs/2002.05035" target="_blank" class="btn">arXiv</a>
-                            <a href="https://scholarworks.uvm.edu/graddis/1239/" target="_blank" class="btn">Thesis</a>                            
+                            <a href="https://www.mdpi.com/1099-4300/22/3/265" target="_blank" rel="noopener" class="btn">Journal article</a>
+                            <a href="https://arxiv.org/abs/2002.05035" target="_blank" rel="noopener" class="btn">arXiv</a>
+                            <a href="https://scholarworks.uvm.edu/graddis/1239/" target="_blank" rel="noopener" class="btn">Thesis</a>                            
                         </div>
                     </div>
                 </div>
-            </section>
-           <section id="skills"> 
+            </section> <!-- END PORTFOLIO -->
+
+           <section id="skills"> <!-- SKILLS SECTION -->
                 <h2>Skills</h2> 
                 <div id="skills-container" class="row no-gutters">
                     <div class="skills-category col-md-4">
                         <div class="vertical-rule">
-                        <h5> Languages </h5>
+                        <h3> Languages </h3>
                         <ul>
                             <li> Python </li>
                             <li> R </li>
@@ -190,7 +194,7 @@
                     </div>
                     <div class="skills-category col-md-4">
                         <div class="vertical-rule">
-                        <h5> Libraries </h5>
+                        <h3> Libraries </h3>
                         <ul>
                             <li> pandas </li>
                             <li> NumPy </li>
@@ -207,7 +211,7 @@
                     </div>
                     <div class="skills-category col-md-4">
                         <div class="vertical-rule">
-                        <h5> Analytical </h5>
+                        <h3> Analytical </h3>
                         <ul>
                             <li> Social network analysis </li>
                             <li> NLP</li>
@@ -216,55 +220,55 @@
                         </div>
                     </div>
                 </div>
-           </section>  
-           <section id="teaching"> 
+           </section>  <!-- END SKILLS -->
+
+           <section id="teaching"> <!-- TEACHING SECTION -->
             <h2>Teaching</h2> 
             <div class="flex">
                 <p> At UVM, I taught Fundamentals of Calculus I (MATH 019) and Applications of Finite Math (MATH 017). </p>
                 <a href="./teaching/index.html" class="btn">My teaching page</a>
             </div>
-           </section> 
-           <section id="contact"> 
+           </section> <!-- END TEACHING -->
+
+           <section id="contact"> <!-- CONTACT SECTION -->
                <h2>Contact</h2> 
-               <p> To get in touch, send me an email at pondtyson@gmail.com or reach out on <a href="https://www.linkedin.com/in/tyson-pond/" target="_blank"> LinkedIn</a>. 
+               <p> To get in touch, send me an email at pondtyson@gmail.com or reach out on <a href="https://www.linkedin.com/in/tyson-pond/" target="_blank" rel="noopener"> LinkedIn</a>. 
               </p>
                <div id="socials"> <!-- SOCIALS -->
 				<ul>
-					<li><a href="https://github.com/tysonpond" target="_blank">
+					<li><a href="https://github.com/tysonpond" target="_blank" rel="noopener" aria-label="Github link">
 						<i class="fab fa-github fa-2x"></i> 
 						</a>
 					</li>
-					<li><a href="https://www.linkedin.com/in/tyson-pond/" target="_blank">
+					<li><a href="https://www.linkedin.com/in/tyson-pond/" target="_blank" rel="noopener" aria-label="LinkedIn link">
 						<i class="fab fa-linkedin fa-2x"></i> 
 						</a>
 					</li>
-					<li><a href="https://scholar.google.com/citations?user=rMTuOCYAAAAJ&hl=en" target="_blank"> 
+					<li><a href="https://scholar.google.com/citations?user=rMTuOCYAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar link"> 
 						<i class="ai ai-google-scholar ai-2x"> </i>
 						</a>
 					</li>
-					<li><a href="https://twitter.com/tyson_c_pond" target="_blank">
+					<li><a href="https://twitter.com/tyson_c_pond" target="_blank" rel="noopener" aria-label="Twitter link">
 						<i class="fab fa-twitter fa-2x"></i> 
 						</a>
 					</li>
-					<li><a href="https://www.kaggle.com/tysonpo" target="_blank">
+					<li><a href="https://www.kaggle.com/tysonpo" target="_blank" rel="noopener" aria-label="Kaggle link">
 						<i class="fab fa-kaggle fa-2x"></i> 
 						</a>
 					</li>
-					<!-- <li><a href="https://medium.com/" target="_blank">
+					<!-- <li><a href="https://medium.com/" target="_blank" rel="noopener" aria-label="Medium link">
 						<i class="fab fa-medium fa-2x"></i> 
 						</a>
 					</li> -->
 				</ul>
 	    	</div> <!-- END SOCIALS -->
-            </section>
+            </section> <!-- END CONTACT -->
+            
         </div>
     </main>
-
-   
-
 </body>
 
-<!-- THESE 3 ARE REQUIRED FOR BOOSTRAP -->
+<!-- THESE 3 ARE REQUIRED FOR BOOTSRAP -->
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <!-- Popper -->
