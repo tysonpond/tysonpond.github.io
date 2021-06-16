@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
 :root {
 	--color-primary: rgb(32, 117, 176);
@@ -8,7 +8,7 @@
 	--color-black: #191818; 
 	--color-black-fade: rgba(0,0,0,0.6);
 	--color-white: white;
-	--primary-font-family: "Lato"; 
+	--primary-font-family: "Roboto"; 
 	--primary-font-regular: 400; 
 	--primary-font-thick: 700; 
 	--shadow-light: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
